@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="9.4" version="9.4" Modules="simple" RootPath="." Language="en" Id="{83DCFF8A-FB69-4E8D-8B4A-4B48DB3077CE}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="make.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://gnuwin32.sourceforge.net/packages/make.htm"/>
+    <ROW Property="Manufacturer" Value="GNU" ValueLocId="*"/>
+    <ROW Property="ProductCode" Value="1033:{5B5873DA-74C7-41D5-AB91-54A82C9DCD38} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Make" ValueLocId="*"/>
+    <ROW Property="ProductVersion" Value="3.81" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{E8954A26-F829-4086-8E0E-60427666FC01}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="LC_MESSAGES_10_Dir" Directory_Parent="id_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_11_Dir" Directory_Parent="ja_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_12_Dir" Directory_Parent="ko_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_13_Dir" Directory_Parent="nl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_14_Dir" Directory_Parent="pl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_15_Dir" Directory_Parent="pt_BR_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_16_Dir" Directory_Parent="ru_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_17_Dir" Directory_Parent="rw_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_18_Dir" Directory_Parent="sv_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_19_Dir" Directory_Parent="tr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_1_Dir" Directory_Parent="da_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_20_Dir" Directory_Parent="uk_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_21_Dir" Directory_Parent="vi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_22_Dir" Directory_Parent="zh_CN_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_2_Dir" Directory_Parent="de_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_3_Dir" Directory_Parent="es_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_4_Dir" Directory_Parent="fi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_5_Dir" Directory_Parent="fr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_6_Dir" Directory_Parent="ga_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_7_Dir" Directory_Parent="gl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_8_Dir" Directory_Parent="he_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_9_Dir" Directory_Parent="hr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_Dir" Directory_Parent="be_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="OpenGroupBaseSpecificationsIssue6_Dir" Directory_Parent="doc_Dir" DefaultDir="OpenGr~1|Open Group Base Specifications Issue 6"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="UnixV7_Dir" Directory_Parent="doc_Dir" DefaultDir="UnixV7"/>
+    <ROW Directory="__1_Dir" Directory_Parent="make_1_Dir" DefaultDir="3.81"/>
+    <ROW Directory="__Dir" Directory_Parent="make_Dir" DefaultDir="3.81"/>
+    <ROW Directory="be_Dir" Directory_Parent="locale_Dir" DefaultDir="be"/>
+    <ROW Directory="bin_Dir" Directory_Parent="APPDIR" DefaultDir="bin"/>
+    <ROW Directory="cat1_Dir" Directory_Parent="man_Dir" DefaultDir="cat1"/>
+    <ROW Directory="config_Dir" Directory_Parent="make3.81src_Dir" DefaultDir="config"/>
+    <ROW Directory="contrib_Dir" Directory_Parent="APPDIR" DefaultDir="contrib"/>
+    <ROW Directory="da_Dir" Directory_Parent="locale_Dir" DefaultDir="da"/>
+    <ROW Directory="de_Dir" Directory_Parent="locale_Dir" DefaultDir="de"/>
+    <ROW Directory="doc_Dir" Directory_Parent="APPDIR" DefaultDir="doc"/>
+    <ROW Directory="es_Dir" Directory_Parent="locale_Dir" DefaultDir="es"/>
+    <ROW Directory="fi_Dir" Directory_Parent="locale_Dir" DefaultDir="fi"/>
+    <ROW Directory="fr_Dir" Directory_Parent="locale_Dir" DefaultDir="fr"/>
+    <ROW Directory="functions_Dir" Directory_Parent="scripts_Dir" DefaultDir="functi~1|functions"/>
+    <ROW Directory="ga_Dir" Directory_Parent="locale_Dir" DefaultDir="ga"/>
+    <ROW Directory="gl_Dir" Directory_Parent="locale_Dir" DefaultDir="gl"/>
+    <ROW Directory="glob_Dir" Directory_Parent="make3.81src_Dir" DefaultDir="glob"/>
+    <ROW Directory="he_Dir" Directory_Parent="locale_Dir" DefaultDir="he"/>
+    <ROW Directory="hr_Dir" Directory_Parent="locale_Dir" DefaultDir="hr"/>
+    <ROW Directory="html_Dir" Directory_Parent="man_Dir" DefaultDir="html"/>
+    <ROW Directory="id_Dir" Directory_Parent="locale_Dir" DefaultDir="id"/>
+    <ROW Directory="info_Dir" Directory_Parent="APPDIR" DefaultDir="info"/>
+    <ROW Directory="ja_Dir" Directory_Parent="locale_Dir" DefaultDir="ja"/>
+    <ROW Directory="ko_Dir" Directory_Parent="locale_Dir" DefaultDir="ko"/>
+    <ROW Directory="locale_Dir" Directory_Parent="share_Dir" DefaultDir="locale"/>
+    <ROW Directory="make3.81_1_Dir" Directory_Parent="__1_Dir" DefaultDir="make-3.81"/>
+    <ROW Directory="make3.81_Dir" Directory_Parent="__Dir" DefaultDir="make-3.81"/>
+    <ROW Directory="make3.81src_Dir" Directory_Parent="__Dir" DefaultDir="make-3~1.81-|make-3.81-src"/>
+    <ROW Directory="make_1_Dir" Directory_Parent="doc_Dir" DefaultDir="make"/>
+    <ROW Directory="make_Dir" Directory_Parent="contrib_Dir" DefaultDir="make"/>
+    <ROW Directory="man1_Dir" Directory_Parent="man_Dir" DefaultDir="man1"/>
+    <ROW Directory="man_Dir" Directory_Parent="APPDIR" DefaultDir="man"/>
+    <ROW Directory="manifest_Dir" Directory_Parent="APPDIR" DefaultDir="manifest"/>
+    <ROW Directory="nl_Dir" Directory_Parent="locale_Dir" DefaultDir="nl"/>
+    <ROW Directory="pdf_Dir" Directory_Parent="man_Dir" DefaultDir="pdf"/>
+    <ROW Directory="pl_Dir" Directory_Parent="locale_Dir" DefaultDir="pl"/>
+    <ROW Directory="po_Dir" Directory_Parent="make3.81src_Dir" DefaultDir="po"/>
+    <ROW Directory="ps_Dir" Directory_Parent="man_Dir" DefaultDir="ps"/>
+    <ROW Directory="pt_BR_Dir" Directory_Parent="locale_Dir" DefaultDir="pt_BR"/>
+    <ROW Directory="ru_Dir" Directory_Parent="locale_Dir" DefaultDir="ru"/>
+    <ROW Directory="rw_Dir" Directory_Parent="locale_Dir" DefaultDir="rw"/>
+    <ROW Directory="scripts_Dir" Directory_Parent="tests_Dir" DefaultDir="scripts"/>
+    <ROW Directory="share_Dir" Directory_Parent="APPDIR" DefaultDir="share"/>
+    <ROW Directory="sv_Dir" Directory_Parent="locale_Dir" DefaultDir="sv"/>
+    <ROW Directory="tests_Dir" Directory_Parent="make3.81src_Dir" DefaultDir="tests"/>
+    <ROW Directory="tr_Dir" Directory_Parent="locale_Dir" DefaultDir="tr"/>
+    <ROW Directory="uk_Dir" Directory_Parent="locale_Dir" DefaultDir="uk"/>
+    <ROW Directory="vi_Dir" Directory_Parent="locale_Dir" DefaultDir="vi"/>
+    <ROW Directory="zh_CN_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_CN"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="ABOUTNLS" ComponentId="{68EFCE8E-F756-4CD9-BAA1-400E208358EF}" Directory_="make3.81src_Dir" Attributes="0" KeyPath="ABOUTNLS" Type="0"/>
+    <ROW Component="ChangeLog" ComponentId="{51AC6469-8592-46C0-9C98-E6D9167AF192}" Directory_="config_Dir" Attributes="0" KeyPath="ChangeLog_1" Type="0"/>
+    <ROW Component="ChangeLog_1" ComponentId="{25093B61-F284-41A2-A28C-E393E4EF8F84}" Directory_="glob_Dir" Attributes="0" KeyPath="ChangeLog_2" Type="0"/>
+    <ROW Component="ChangeLog_2" ComponentId="{15DE2C00-0C7E-450D-8503-EA6DC08E4650}" Directory_="po_Dir" Attributes="0" KeyPath="ChangeLog_3" Type="0"/>
+    <ROW Component="ChangeLog_3" ComponentId="{55F6D4AC-CB80-4FF6-B37E-987B0E621A11}" Directory_="tests_Dir" Attributes="0" KeyPath="ChangeLog_4" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{D752C98E-1718-4CD3-B973-003DEC023DEC}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="check.log" ComponentId="{BD309D51-F685-4215-8434-DACD51DA77DD}" Directory_="make3.81_Dir" Attributes="0" KeyPath="check.log" Type="0"/>
+    <ROW Component="dir" ComponentId="{38B33D71-A673-4D5E-BC79-A3DC9F37586A}" Directory_="info_Dir" Attributes="0" KeyPath="dir" Type="0"/>
+    <ROW Component="libiconv2.dll" ComponentId="{5240ED41-4B38-4186-ABDF-D58AE7FD7296}" Directory_="bin_Dir" Attributes="0" KeyPath="libiconv2.dll"/>
+    <ROW Component="libintl3.dll" ComponentId="{FD85D1A2-60DD-4A13-BE4C-784BAF19C67D}" Directory_="bin_Dir" Attributes="0" KeyPath="libintl3.dll"/>
+    <ROW Component="make.1" ComponentId="{51CB918E-6177-4A45-994D-A78704C0251B}" Directory_="man1_Dir" Attributes="0" KeyPath="make.1" Type="0"/>
+    <ROW Component="make.1.html" ComponentId="{146271F8-3389-4950-812D-C332A9FDC708}" Directory_="html_Dir" Attributes="0" KeyPath="make.1.html" Type="0"/>
+    <ROW Component="make.1.txt" ComponentId="{05095A8F-7C81-4AC6-BB47-37FDF128CAAA}" Directory_="cat1_Dir" Attributes="0" KeyPath="make.1.txt" Type="0"/>
+    <ROW Component="make.chm" ComponentId="{9DF620DC-96EA-42F4-97FF-9EC6C090589A}" Directory_="make3.81_1_Dir" Attributes="0" KeyPath="make.chm" Type="1"/>
+    <ROW Component="make.dvi.gz" ComponentId="{0BFACB7B-02C4-4A86-AD75-7D241B2DA0BC}" Directory_="make3.81_1_Dir" Attributes="0" KeyPath="make.dvi.gz" Type="0"/>
+    <ROW Component="make.exe" ComponentId="{E9C5C21B-D03B-494A-9EB3-43C6CAC5AA77}" Directory_="bin_Dir" Attributes="0" KeyPath="make.exe"/>
+    <ROW Component="make.hlp" ComponentId="{998E64D5-66D3-4D8B-A1BD-32518E0FCF2F}" Directory_="make3.81_1_Dir" Attributes="0" KeyPath="make.hlp" Type="2"/>
+    <ROW Component="make.htm" ComponentId="{98232B21-D8A3-460A-9141-5D679D47AC55}" Directory_="OpenGroupBaseSpecificationsIssue6_Dir" Attributes="0" KeyPath="make.htm" Type="0"/>
+    <ROW Component="make.mo" ComponentId="{FF209DC0-606E-422E-99F6-F224F6018AF6}" Directory_="LC_MESSAGES_Dir" Attributes="0" KeyPath="make.mo" Type="0"/>
+    <ROW Component="make.mo_1" ComponentId="{A0D129AB-F593-48A8-BDF2-FEC3547B1C2A}" Directory_="LC_MESSAGES_1_Dir" Attributes="0" KeyPath="make.mo_1" Type="0"/>
+    <ROW Component="make.mo_10" ComponentId="{6FE4CF51-3923-4C67-9B15-386DF32349A1}" Directory_="LC_MESSAGES_10_Dir" Attributes="0" KeyPath="make.mo_10" Type="0"/>
+    <ROW Component="make.mo_11" ComponentId="{F0F429BC-9361-4F46-9F0A-BBDEFDA23F36}" Directory_="LC_MESSAGES_11_Dir" Attributes="0" KeyPath="make.mo_11" Type="0"/>
+    <ROW Component="make.mo_12" ComponentId="{4A91696A-2A6A-4D31-9A8F-045BEECEB3ED}" Directory_="LC_MESSAGES_12_Dir" Attributes="0" KeyPath="make.mo_12" Type="0"/>
+    <ROW Component="make.mo_13" ComponentId="{453CE984-2151-4CFA-BED7-36C1D7977AC7}" Directory_="LC_MESSAGES_13_Dir" Attributes="0" KeyPath="make.mo_13" Type="0"/>
+    <ROW Component="make.mo_14" ComponentId="{42EF4075-A5ED-4FB5-894B-B8589BBD2886}" Directory_="LC_MESSAGES_14_Dir" Attributes="0" KeyPath="make.mo_14" Type="0"/>
+    <ROW Component="make.mo_15" ComponentId="{4B2E6E09-EB49-44EF-95AD-C43DB962187B}" Directory_="LC_MESSAGES_15_Dir" Attributes="0" KeyPath="make.mo_15" Type="0"/>
+    <ROW Component="make.mo_16" ComponentId="{AF175ACF-8D0B-45D1-B43D-246AA0C98505}" Directory_="LC_MESSAGES_16_Dir" Attributes="0" KeyPath="make.mo_16" Type="0"/>
+    <ROW Component="make.mo_17" ComponentId="{6017636C-BC04-45E1-B91D-3F58F7A3C8E8}" Directory_="LC_MESSAGES_17_Dir" Attributes="0" KeyPath="make.mo_17" Type="0"/>
+    <ROW Component="make.mo_18" ComponentId="{C248EA18-2F2F-4195-8F6C-B1D2D819D3C6}" Directory_="LC_MESSAGES_18_Dir" Attributes="0" KeyPath="make.mo_18" Type="0"/>
+    <ROW Component="make.mo_19" ComponentId="{9F4C4F0F-6B8A-4ED1-9CDA-BE01AB77C585}" Directory_="LC_MESSAGES_19_Dir" Attributes="0" KeyPath="make.mo_19" Type="0"/>
+    <ROW Component="make.mo_2" ComponentId="{1B8AFE2A-1B3A-44FB-8034-E06844D59668}" Directory_="LC_MESSAGES_2_Dir" Attributes="0" KeyPath="make.mo_2" Type="0"/>
+    <ROW Component="make.mo_20" ComponentId="{B2C3D0D2-CAFE-43BC-8B1A-7FCD27A6CF73}" Directory_="LC_MESSAGES_20_Dir" Attributes="0" KeyPath="make.mo_20" Type="0"/>
+    <ROW Component="make.mo_21" ComponentId="{402581F7-5A26-43A5-BFAA-F7827EFA7472}" Directory_="LC_MESSAGES_21_Dir" Attributes="0" KeyPath="make.mo_21" Type="0"/>
+    <ROW Component="make.mo_22" ComponentId="{503A24E9-AC96-435B-BCE1-54EFE5D0E62F}" Directory_="LC_MESSAGES_22_Dir" Attributes="0" KeyPath="make.mo_22" Type="0"/>
+    <ROW Component="make.mo_3" ComponentId="{5E5F04CB-0EFE-4987-972F-C600A11D0784}" Directory_="LC_MESSAGES_3_Dir" Attributes="0" KeyPath="make.mo_3" Type="0"/>
+    <ROW Component="make.mo_4" ComponentId="{C523CA07-3FA3-4AC3-8F39-3AA72863ED3C}" Directory_="LC_MESSAGES_4_Dir" Attributes="0" KeyPath="make.mo_4" Type="0"/>
+    <ROW Component="make.mo_5" ComponentId="{162D5AAA-7C9A-40B3-918C-CAFD8BB5878F}" Directory_="LC_MESSAGES_5_Dir" Attributes="0" KeyPath="make.mo_5" Type="0"/>
+    <ROW Component="make.mo_6" ComponentId="{0EB92B2F-41CA-44DC-9F8C-C348BDE8EBF6}" Directory_="LC_MESSAGES_6_Dir" Attributes="0" KeyPath="make.mo_6" Type="0"/>
+    <ROW Component="make.mo_7" ComponentId="{7EE1B166-7C21-4270-A791-DCBF99730773}" Directory_="LC_MESSAGES_7_Dir" Attributes="0" KeyPath="make.mo_7" Type="0"/>
+    <ROW Component="make.mo_8" ComponentId="{25411800-C9BA-4B88-9D72-75C5E4490975}" Directory_="LC_MESSAGES_8_Dir" Attributes="0" KeyPath="make.mo_8" Type="0"/>
+    <ROW Component="make.mo_9" ComponentId="{E0430843-2A21-4138-B9DA-43B9D6470EA1}" Directory_="LC_MESSAGES_9_Dir" Attributes="0" KeyPath="make.mo_9" Type="0"/>
+    <ROW Component="make3.81GnuWin32.README" ComponentId="{AD195595-2A79-40DE-BC5E-FD346CED609D}" Directory_="__Dir" Attributes="0" KeyPath="make3.81GnuWin32.README" Type="0"/>
+    <ROW Component="make3.81bin.mft" ComponentId="{179297BE-6921-4331-ADDD-F904B95AD4ED}" Directory_="manifest_Dir" Attributes="0" KeyPath="make3.81bin.mft" Type="0"/>
+    <ROW Component="make_V7.pdf" ComponentId="{62D898B7-57E0-4B77-84D1-E3B34BF2C4B0}" Directory_="UnixV7_Dir" Attributes="0" KeyPath="make_V7.pdf" Type="0"/>
+    <ROW Component="makeman.pdf" ComponentId="{72A29F1C-69CC-4DE7-A914-02C6470ED767}" Directory_="pdf_Dir" Attributes="0" KeyPath="makeman.pdf" Type="0"/>
+    <ROW Component="makeman.ps.gz" ComponentId="{589FA9A4-BD64-432A-A7BA-D73826CFE152}" Directory_="ps_Dir" Attributes="0" KeyPath="makeman.ps.gz" Type="0"/>
+    <ROW Component="warning" ComponentId="{0BCAD4EA-70FF-49BE-8139-8CF6A4F95573}" Directory_="functions_Dir" Attributes="0" KeyPath="warning" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ABOUTNLS ChangeLog ChangeLog_1 ChangeLog_2 ChangeLog_3 ProductInformation check.log dir libiconv2.dll libintl3.dll make.1 make.1.html make.1.txt make.chm make.dvi.gz make.exe make.hlp make.htm make.mo make.mo_1 make.mo_10 make.mo_11 make.mo_12 make.mo_13 make.mo_14 make.mo_15 make.mo_16 make.mo_17 make.mo_18 make.mo_19 make.mo_2 make.mo_20 make.mo_21 make.mo_22 make.mo_3 make.mo_4 make.mo_5 make.mo_6 make.mo_7 make.mo_8 make.mo_9 make3.81GnuWin32.README make3.81bin.mft make_V7.pdf makeman.pdf makeman.ps.gz warning"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="ABOUTNLS" Component_="ABOUTNLS" FileName="ABOUT-~1|ABOUT-NLS" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\ABOUT-NLS" SelfReg="false" NextFile="AUTHORS"/>
+    <ROW File="AUTHORS" Component_="ABOUTNLS" FileName="AUTHORS" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\AUTHORS" SelfReg="false" NextFile="ChangeLog"/>
+    <ROW File="COPYING" Component_="ABOUTNLS" FileName="COPYING" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\COPYING" SelfReg="false" NextFile="ChangeLog_2"/>
+    <ROW File="COPYING_1" Component_="ChangeLog_3" FileName="COPYING" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\tests\COPYING" SelfReg="false" NextFile="NEWS_1"/>
+    <ROW File="ChangeLog" Component_="ABOUTNLS" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\ChangeLog" SelfReg="false" NextFile="ChangeLog_1"/>
+    <ROW File="ChangeLog_1" Component_="ChangeLog" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\config\ChangeLog" SelfReg="false" NextFile="COPYING"/>
+    <ROW File="ChangeLog_2" Component_="ChangeLog_1" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\glob\ChangeLog" SelfReg="false" NextFile="INSTALL"/>
+    <ROW File="ChangeLog_3" Component_="ChangeLog_2" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\po\ChangeLog" SelfReg="false" NextFile="README"/>
+    <ROW File="ChangeLog_4" Component_="ChangeLog_3" FileName="Change~1|ChangeLog" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\tests\ChangeLog" SelfReg="false" NextFile="COPYING_1"/>
+    <ROW File="INSTALL" Component_="ABOUTNLS" FileName="INSTALL" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\INSTALL" SelfReg="false" NextFile="NEWS"/>
+    <ROW File="NEWS" Component_="ABOUTNLS" FileName="NEWS" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\NEWS" SelfReg="false" NextFile="ChangeLog_3"/>
+    <ROW File="NEWS_1" Component_="ChangeLog_3" FileName="NEWS" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\tests\NEWS" SelfReg="false" NextFile="README_1"/>
+    <ROW File="README" Component_="ABOUTNLS" FileName="README" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\README" SelfReg="false" NextFile="ChangeLog_4"/>
+    <ROW File="README_1" Component_="ChangeLog_3" FileName="README" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\tests\README" SelfReg="false" NextFile="warning"/>
+    <ROW File="check.log" Component_="check.log" FileName="check.log" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81\check.log" SelfReg="false" NextFile="make3.81GnuWin32.README"/>
+    <ROW File="dir" Component_="dir" FileName="dir" Attributes="0" SourcePath="make\info\dir" SelfReg="false" NextFile="make.info"/>
+    <ROW File="libiconv2.dll" Component_="libiconv2.dll" FileName="libico~1.dll|libiconv2.dll" Attributes="0" SourcePath="make\bin\libiconv2.dll" SelfReg="false" NextFile="libintl3.dll"/>
+    <ROW File="libintl3.dll" Component_="libintl3.dll" FileName="libintl3.dll" Attributes="0" SourcePath="make\bin\libintl3.dll" SelfReg="false" NextFile="make.exe"/>
+    <ROW File="make.1" Component_="make.1" FileName="make.1" Attributes="0" SourcePath="make\man\man1\make.1" SelfReg="false" NextFile="makeman.pdf"/>
+    <ROW File="make.1.html" Component_="make.1.html" FileName="make1~1.htm|make.1.html" Attributes="0" SourcePath="make\man\html\make.1.html" SelfReg="false" NextFile="make.1"/>
+    <ROW File="make.1.txt" Component_="make.1.txt" FileName="make1~1.txt|make.1.txt" Attributes="0" SourcePath="make\man\cat1\make.1.txt" SelfReg="false" NextFile="make.1.html"/>
+    <ROW File="make.chm" Component_="make.chm" FileName="make.chm" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.chm" SelfReg="false" NextFile="make.dvi.gz"/>
+    <ROW File="make.dvi.gz" Component_="make.dvi.gz" FileName="makedv~1.gz|make.dvi.gz" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.dvi.gz" SelfReg="false" NextFile="make.hlp"/>
+    <ROW File="make.exe" Component_="make.exe" FileName="make.exe" Attributes="0" SourcePath="make\bin\make.exe" SelfReg="false" NextFile="check.log"/>
+    <ROW File="make.hlp" Component_="make.hlp" FileName="make.hlp" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.hlp" SelfReg="false" NextFile="make.html"/>
+    <ROW File="make.htm" Component_="make.htm" FileName="make.htm" Attributes="0" SourcePath="make\doc\Open Group Base Specifications Issue 6\make.htm" SelfReg="false" NextFile="make_V7.pdf"/>
+    <ROW File="make.html" Component_="make.dvi.gz" FileName="make~1.htm|make.html" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.html" SelfReg="false" NextFile="make.pdf"/>
+    <ROW File="make.info" Component_="dir" FileName="make~1.inf|make.info" Attributes="0" SourcePath="make\info\make.info" SelfReg="false" NextFile="make.info1"/>
+    <ROW File="make.info1" Component_="dir" FileName="make~2.inf|make.info-1" Attributes="0" SourcePath="make\info\make.info-1" SelfReg="false" NextFile="make.info2"/>
+    <ROW File="make.info2" Component_="dir" FileName="make~3.inf|make.info-2" Attributes="0" SourcePath="make\info\make.info-2" SelfReg="false" NextFile="make.1.txt"/>
+    <ROW File="make.mo" Component_="make.mo" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\be\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_1"/>
+    <ROW File="make.mo_1" Component_="make.mo_1" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\da\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_2"/>
+    <ROW File="make.mo_10" Component_="make.mo_10" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\id\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_11"/>
+    <ROW File="make.mo_11" Component_="make.mo_11" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\ja\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_12"/>
+    <ROW File="make.mo_12" Component_="make.mo_12" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\ko\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_13"/>
+    <ROW File="make.mo_13" Component_="make.mo_13" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\nl\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_14"/>
+    <ROW File="make.mo_14" Component_="make.mo_14" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\pl\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_15"/>
+    <ROW File="make.mo_15" Component_="make.mo_15" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\pt_BR\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_16"/>
+    <ROW File="make.mo_16" Component_="make.mo_16" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\ru\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_17"/>
+    <ROW File="make.mo_17" Component_="make.mo_17" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\rw\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_18"/>
+    <ROW File="make.mo_18" Component_="make.mo_18" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\sv\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_19"/>
+    <ROW File="make.mo_19" Component_="make.mo_19" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\tr\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_20"/>
+    <ROW File="make.mo_2" Component_="make.mo_2" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\de\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_3"/>
+    <ROW File="make.mo_20" Component_="make.mo_20" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\uk\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_21"/>
+    <ROW File="make.mo_21" Component_="make.mo_21" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\vi\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_22"/>
+    <ROW File="make.mo_22" Component_="make.mo_22" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\zh_CN\LC_MESSAGES\make.mo" SelfReg="false"/>
+    <ROW File="make.mo_3" Component_="make.mo_3" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\es\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_4"/>
+    <ROW File="make.mo_4" Component_="make.mo_4" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\fi\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_5"/>
+    <ROW File="make.mo_5" Component_="make.mo_5" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\fr\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_6"/>
+    <ROW File="make.mo_6" Component_="make.mo_6" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\ga\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_7"/>
+    <ROW File="make.mo_7" Component_="make.mo_7" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\gl\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_8"/>
+    <ROW File="make.mo_8" Component_="make.mo_8" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\he\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_9"/>
+    <ROW File="make.mo_9" Component_="make.mo_9" FileName="make.mo" Attributes="0" SourcePath="make\share\locale\hr\LC_MESSAGES\make.mo" SelfReg="false" NextFile="make.mo_10"/>
+    <ROW File="make.pdf" Component_="make.dvi.gz" FileName="make.pdf" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.pdf" SelfReg="false" NextFile="make.ps.gz"/>
+    <ROW File="make.ps.gz" Component_="make.dvi.gz" FileName="makeps~1.gz|make.ps.gz" Attributes="0" SourcePath="make\doc\make\3.81\make-3.81\make.ps.gz" SelfReg="false" NextFile="make.htm"/>
+    <ROW File="make3.81GnuWin32.README" Component_="make3.81GnuWin32.README" FileName="make-3~1.REA|make-3.81-GnuWin32.README" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-GnuWin32.README" SelfReg="false" NextFile="ABOUTNLS"/>
+    <ROW File="make3.81bin.mft" Component_="make3.81bin.mft" FileName="make-3~1.mft|make-3.81-bin.mft" Attributes="0" SourcePath="make\manifest\make-3.81-bin.mft" SelfReg="false" NextFile="make3.81bin.ver"/>
+    <ROW File="make3.81bin.ver" Component_="make3.81bin.mft" FileName="make-3~1.ver|make-3.81-bin.ver" Attributes="0" SourcePath="make\manifest\make-3.81-bin.ver" SelfReg="false" NextFile="make3.81dep.mft"/>
+    <ROW File="make3.81dep.mft" Component_="make3.81bin.mft" FileName="make-3~2.mft|make-3.81-dep.mft" Attributes="0" SourcePath="make\manifest\make-3.81-dep.mft" SelfReg="false" NextFile="make3.81dep.ver"/>
+    <ROW File="make3.81dep.ver" Component_="make3.81bin.mft" FileName="make-3~2.ver|make-3.81-dep.ver" Attributes="0" SourcePath="make\manifest\make-3.81-dep.ver" SelfReg="false" NextFile="make3.81doc.mft"/>
+    <ROW File="make3.81doc.mft" Component_="make3.81bin.mft" FileName="make-3~3.mft|make-3.81-doc.mft" Attributes="0" SourcePath="make\manifest\make-3.81-doc.mft" SelfReg="false" NextFile="make3.81doc.ver"/>
+    <ROW File="make3.81doc.ver" Component_="make3.81bin.mft" FileName="make-3~3.ver|make-3.81-doc.ver" Attributes="0" SourcePath="make\manifest\make-3.81-doc.ver" SelfReg="false" NextFile="make.mo"/>
+    <ROW File="make_V7.pdf" Component_="make_V7.pdf" FileName="make_V7.pdf" Attributes="0" SourcePath="make\doc\UnixV7\make_V7.pdf" SelfReg="false" NextFile="make_V7.ps.gz"/>
+    <ROW File="make_V7.ps.gz" Component_="make_V7.pdf" FileName="make_V~1.gz|make_V7.ps.gz" Attributes="0" SourcePath="make\doc\UnixV7\make_V7.ps.gz" SelfReg="false" NextFile="dir"/>
+    <ROW File="makeman.pdf" Component_="makeman.pdf" FileName="make-man.pdf" Attributes="0" SourcePath="make\man\pdf\make-man.pdf" SelfReg="false" NextFile="makeman.ps.gz"/>
+    <ROW File="makeman.ps.gz" Component_="makeman.ps.gz" FileName="make-m~1.gz|make-man.ps.gz" Attributes="0" SourcePath="make\man\ps\make-man.ps.gz" SelfReg="false" NextFile="make3.81bin.mft"/>
+    <ROW File="warning" Component_="warning" FileName="warning" Attributes="0" SourcePath="make\contrib\make\3.81\make-3.81-src\tests\scripts\functions\warning" SelfReg="false" NextFile="make.chm"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="Make-3.81" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ATTRIBUTE name="FixedSizeBitmaps" value="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="PATH" Name="=-PATH" Value="[~];[APPDIR]\bin" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="make.exe" SourcePath="make\bin\make.exe" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
