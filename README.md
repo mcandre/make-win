@@ -1,5 +1,11 @@
 # make-win - Windows installer for make
 
+# DEPRECATED
+
+Windows users are advised to install make as part of DevKit via [Chocolatey](http://chocolatey.org/):
+
+    cinst ruby.devkit
+
 # ABOUT
 
 make-win takes a folder of make binaries and wraps them in a basic MSI installer that adds `make` to `PATH`.
